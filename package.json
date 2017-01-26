@@ -1,0 +1,24 @@
+{
+  "name": "chatnode",
+  "version": "1.0.0",
+  "description": "Chat con node y socket.io",
+  "main": "index.js",
+  "scripts": {
+	"start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "nodejs"
+  ],
+  "author": "Roberto Elizo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
